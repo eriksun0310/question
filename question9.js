@@ -25,7 +25,7 @@ const checkAllAge = ()=>{
     // 檢查所有人員中是否有一位超過100的
     const continueCheckAge = list1?.some((dev)=>dev?.age >= 100)
     
-    // 沒有超過100
+    // 沒有超過100, 不繼續往下檢查
     if(!continueCheckAge){
         return false
     }
